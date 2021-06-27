@@ -20,8 +20,6 @@ func main() {
 	line = strings.TrimSuffix(line, "\n")
 
 	runes := []rune(line)
-	fmt.Println("len of runes = ", len(runes))
-	fmt.Println("len of string = ", len(line))
 
 	for _, v := range runes {
 		_, ok := unique[v]
